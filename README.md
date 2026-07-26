@@ -88,24 +88,63 @@ This is the reading list, minus the parts that stopped being true.
 
 ## Start with your actual problem
 
+**Foundations**
+
 | If you're… | Read |
 |---|---|
 | Unable to explain what you built | [1. Positioning and audience](chapters/01-positioning-and-audience.md) |
+| Guessing at your price | [13. Pricing and business model](chapters/13-pricing-and-business-model.md) |
+| Naming a product, or worried you named it wrong | [22. Brand, naming and identity](chapters/22-brand-naming-and-identity.md) |
+
+**Getting found**
+
+| If you're… | Read |
+|---|---|
 | At zero users with no budget | [2. Zero-budget growth](chapters/02-zero-budget-growth.md) |
 | Wondering what to write | [3. Content marketing](chapters/03-content-marketing.md) |
 | Invisible in Google *and* in ChatGPT | [4. SEO and AI search](chapters/04-seo-and-ai-search.md) |
-| Selling to developers | [5. Developer marketing and DevRel](chapters/05-developer-marketing-and-devrel.md) |
-| Trying to monetise an open-source project | [6. Open source and PLG](chapters/06-open-source-and-plg.md) |
 | About to launch | [7. Launching](chapters/07-launching.md) |
 | Deciding where to build a community | [8. Communities and social](chapters/08-communities-and-social.md) |
+| Wondering whether to start a channel or a podcast | [19. Video, YouTube and podcasting](chapters/19-video-and-podcasting.md) |
+| Considering a conference, booth or meetup | [25. Events and developer education](chapters/25-events-and-education.md) |
+| Selling outside your home market | [27. International and localisation](chapters/27-international-and-localisation.md) |
+
+**Selling to engineers**
+
+| If you're… | Read |
+|---|---|
+| Selling to developers | [5. Developer marketing and DevRel](chapters/05-developer-marketing-and-devrel.md) |
+| Trying to monetise an open-source project | [6. Open source and PLG](chapters/06-open-source-and-plg.md) |
+| Doing your own sales calls | [20. Founder-led sales](chapters/20-founder-led-sales.md) |
+| Stuck behind a security questionnaire | [21. Trust, security and compliance](chapters/21-trust-and-compliance-as-marketing.md) |
+| Trying to get a customer to go on record | [24. Case studies and social proof](chapters/24-case-studies-and-social-proof.md) |
+
+**Converting and keeping**
+
+| If you're… | Read |
+|---|---|
 | Setting up email that lands in inboxes | [9. Email and lifecycle](chapters/09-email-and-lifecycle.md) |
 | Doing cold outreach or partnerships | [10. Outbound and partnerships](chapters/10-outbound-and-partnerships.md) |
+| Getting traffic that doesn't convert | [18. Landing pages and conversion](chapters/18-landing-pages-and-conversion.md) |
+| Losing customers and unsure why | [23. Retention, churn and support](chapters/23-retention-and-support.md) |
+| Shipping a slow or inaccessible site | [26. Performance and accessibility](chapters/26-performance-and-accessibility.md) |
+
+**Spending, measuring and staying out of trouble**
+
+| If you're… | Read |
+|---|---|
 | Considering spending money on ads | [11. Paid acquisition](chapters/11-paid-acquisition.md) |
 | Unable to tell what's working | [12. Analytics and attribution](chapters/12-analytics-and-attribution.md) |
-| Guessing at your price | [13. Pricing and business model](chapters/13-pricing-and-business-model.md) |
 | Unsure where persuasion becomes manipulation | [14. Psychology and ethics](chapters/14-psychology-and-ethics.md) |
 | Worried about GDPR, the FTC, or the EU AI Act | [15. Privacy and compliance](chapters/15-privacy-and-compliance.md) |
 | Building an AI-assisted marketing workflow | [16. The AI marketing stack](chapters/16-ai-marketing-stack.md) |
+
+**Scaling beyond yourself**
+
+| If you're… | Read |
+|---|---|
+| Raising money, or talking to press and analysts | [28. Fundraising, investors and press](chapters/28-fundraising-investors-and-pr.md) |
+| Making your first marketing hire, or picking an agency | [29. Hiring, agencies and outsourcing](chapters/29-hiring-and-agencies.md) |
 | Looking for what to read next | [17. Reading list](chapters/17-reading-list.md) |
 
 ---
