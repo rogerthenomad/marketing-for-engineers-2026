@@ -1,5 +1,6 @@
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 
+The Visibility Handbook
 Copyright (c) 2026 Capture That Media (Roger Wong Won)
 https://www.capturethatmedia.com
 
@@ -22,17 +23,22 @@ UNDER THE FOLLOWING TERMS:
   No additional restrictions — You may not apply legal terms or technological
   measures that legally restrict others from doing anything the license permits.
 
+FORKING IS ENCOURAGED:
+
+This handbook is built to be forked, translated, specialised, and extended.
+Fork it for your language, your industry, your framework, your region. Strip
+out what does not apply and add what does. The only thing asked in return is
+the credit line and link back that the license above already requires.
+
+If you build something substantial on top of it, open an issue and it will be
+linked from this repository.
+
 NOTICES:
 
-This license applies to the original text of this collection: the chapter prose,
+This license applies to the original text of this work: the chapter prose,
 annotations, structure, and curation.
 
 It does NOT apply to the linked third-party resources. Every article, tool,
-book, video, and study linked from this collection remains the property of its
+book, video, and study linked from this handbook remains the property of its
 respective author or company and is governed by that party's own terms and
 license. Linking is not a transfer of rights.
-
-This collection is inspired by "Marketing for Engineers" by Lisa Dziuba and
-Ahmed Sulaiman (https://github.com/goabstract/Marketing-for-Engineers), which
-carries no license file. No text from that work is reproduced here.
-See CREDITS.md.

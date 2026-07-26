@@ -1,9 +1,9 @@
 # 3. Content Marketing
 
-> The original list devoted three sub-chapters to content, one of them entirely about Medium.
-> The strategic advice in it holds up. The distribution advice does not: publishing volume
-> stopped being a strategy, the platform it recommended became a paywall, and the point of a
-> post shifted from "get the click" to "be the thing that gets quoted."
+> The strategy half of content marketing has aged well. The distribution half has not:
+> publishing volume stopped being a strategy, the platforms that used to hand out reach have
+> stopped, and the point of a post shifted from "get the click" to "be the thing that gets
+> quoted."
 
 ---
 
@@ -75,7 +75,7 @@ Practically:
 
 ## 3.5 Own your domain
 
-The 2018 list recommended Medium as a primary channel. Don't. It's paywalled, its distribution to
+A lot of older advice recommends Medium as a primary channel. Don't. It's paywalled, its distribution to
 non-subscribers is a fraction of what that advice assumed, and you're building an asset on
 someone else's balance sheet.
 

@@ -11,21 +11,22 @@
 
 ---
 
-# Marketing for Engineers — 2026 Edition
+# The Visibility Handbook
 
-**A practical, opinionated marketing collection for engineers who have to market the thing they
-built.** Organised by the problem you're actually trying to solve, honest about what no longer
-works, and written so you can act on it today.
+### Marketing and go-to-market for people who build things
 
-Inspired by [Marketing for Engineers](https://github.com/goabstract/Marketing-for-Engineers) by
-Lisa Dziuba and Ahmed Sulaiman — one of the best resources of its era, last meaningfully updated
-around 2018. This is a rewrite, not a fork: every chapter was written from scratch for 2026.
-See [CREDITS.md](CREDITS.md).
+**You can build it. This is how you get it found.** A practical, opinionated handbook for
+engineers, founders and maintainers who have to market the thing they made — organised by the
+problem you're actually trying to solve, honest about what no longer works, and written so you
+can act on it today.
 
-> **New here?** Start with [What Changed for 2026](WHATS-NEW-2026.md), especially
-> [the graveyard](WHATS-NEW-2026.md#the-graveyard) — the list of tools and tactics that are dead,
-> and what replaced them. If you've been following 2018-era advice, that's the fastest way to
-> stop wasting your time.
+**Free, CC BY 4.0, and built to be forked.** Translate it, specialise it for your stack or your
+industry, strip what doesn't apply. See [the licence](LICENSE).
+
+> **New here?** Start with [What Stopped Working](WHAT-STOPPED-WORKING.md), especially
+> [the graveyard](WHAT-STOPPED-WORKING.md#the-graveyard) — the list of tools and tactics that are dead,
+> and what replaced them. If you've been following advice you found on page one of Google,
+> that's the fastest way to stop wasting your time.
 
 ---
 
@@ -72,12 +73,13 @@ engineers — you have the raw material and most of your competitors don't.
 
 **Several tactics from the last era are now enforcement matters.** Fake reviews, undisclosed
 endorsements, bought upvotes and astroturfed threads moved from distasteful to regulated, with
-civil penalties attached. The 2018 advice on some of this will get you in genuine trouble.
+civil penalties attached. Some widely repeated advice will now get you in genuine trouble.
 
-**And the old advice is still the top search result.** That's the real reason this exists. The
-list this one rebuilds was excellent, is nearly a decade old, and is still being found and
-followed by people who then waste months on channels that closed years ago. Half the value here is
-the [graveyard](WHATS-NEW-2026.md#the-graveyard).
+**And the outdated advice is still the top search result.** That's the real reason this exists.
+Most of the marketing guidance aimed at engineers was written between 2015 and 2019, is still
+ranking, and is still being followed by people who then waste months on channels that closed
+years ago. Half the value here is the [graveyard](WHAT-STOPPED-WORKING.md#the-graveyard) — the
+list of things that no longer work, and what replaced them.
 
 Marketing is a learnable skill with a literature, the same as distributed systems or type theory.
 This is the reading list, minus the parts that stopped being true.
@@ -136,12 +138,12 @@ measures, the chapter says so. Where no primary source could be traced, the numb
 than repeated.
 
 **It tells you when things don't work.** A chapter that quietly omits a dead tactic isn't helping —
-someone will find the 2018 advice and follow it. So the dead things are named.
+someone will find the outdated advice and follow it. So the dead things are named.
 
 **Every chapter ends with "if you only do five things."** Curated lists are easy to admire and
 hard to act on.
 
-**Known limitations** are documented in [What Changed for 2026](WHATS-NEW-2026.md#known-gaps)
+**Known limitations** are documented in [What Stopped Working](WHAT-STOPPED-WORKING.md#known-gaps)
 rather than hidden. The most significant one: link verification was partial, because the research
 environment blocked direct HTTP fetches to most hosts.
 
@@ -180,13 +182,14 @@ Antonio in 2023.
 
 We work on branding, social, SEO/AEO/GEO, web development, e-commerce and full-stack marketing —
 which is to say we spend our working days on most of the problems in this list. That's the honest
-reason it exists. We kept reaching for the 2018 original, kept finding its links dead, and
-eventually concluded that rewriting it was less work than explaining it away.
+reason it exists. We kept sending clients the same handful of links, kept finding those links
+dead or describing a platform that had changed underneath them, and eventually concluded that
+writing the thing properly was less work than explaining it away every time.
 
 The chapters on [AI search](chapters/04-seo-and-ai-search.md),
 [analytics](chapters/12-analytics-and-attribution.md) and
 [compliance](chapters/15-privacy-and-compliance.md) are the ones we get asked about most, and the
-ones where the 2018 advice is most likely to actively hurt you.
+ones where inherited advice is most likely to actively hurt you.
 
 **Where to find us**
 
@@ -198,12 +201,13 @@ ones where the 2018 advice is most likely to actively hurt you.
 this list. **Nothing here is a paid placement.** No vendor was compensated for inclusion, there are
 no affiliate links, and we don't recommend our own services in the chapters. Where our commercial
 interest touches a recommendation, the text says so. See [CONTRIBUTING.md](CONTRIBUTING.md) for the
-bar a link has to clear, and [CREDITS.md](CREDITS.md) for the full disclosure.
+bar a link has to clear.
 
 **Found something wrong?** [Open an issue](../../issues). Corrections — especially about law,
 privacy rules and deliverability — get fixed fast, because people make real decisions on them.
 
 ---
 
-*Compiled July 2026. Standing on the shoulders of [Lisa Dziuba and Ahmed Sulaiman](CREDITS.md),
-who wrote the original and taught a generation of engineers that marketing is a learnable skill.*
+*The Visibility Handbook. Compiled July 2026 in San Antonio, Texas. Marketing is a learnable
+skill with a literature, the same as distributed systems or type theory — this is the reading
+list, minus the parts that stopped being true.*

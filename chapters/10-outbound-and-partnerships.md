@@ -1,10 +1,9 @@
 # 10. Outbound and Partnerships
 
-> The 2018 list opened its cold-email chapter with a note saying that after GDPR the author
-> could no longer recommend cold email at all — and then listed eleven cold-email tools
-> anyway. This chapter resolves that contradiction: targeted outbound is still legitimate and
-> still works. Mass automated outbound is now both ineffective and, in several jurisdictions,
-> unlawful.
+> Most writing on cold outreach is either a compliance panic that tells you never to do it, or
+> a tooling list that pretends the law doesn't exist. Both are unhelpful. The truth is narrower:
+> targeted outbound is legitimate and still works. Mass automated outbound is now both
+> ineffective and, in several jurisdictions, unlawful.
 
 ---
 
@@ -100,12 +99,12 @@ Engineers respond to working code.
 
 ## 10.5 Talking to influential people
 
-Renamed from the original's "Influencer Marketing," because for technical products that term
+Deliberately not called "influencer marketing," because for technical products that term
 describes something that mostly doesn't work. Paid technical influencer campaigns are transparent
 to the audience and generally counterproductive.
 
-What does work is unchanged since 2018, and the original list was right about it: **be genuinely
-useful to people whose work you respect, without an immediate ask.** Cite their work. Fix their
+What does work has not changed in twenty years: **be genuinely useful to people whose work you
+respect, without an immediate ask.** Cite their work. Fix their
 bug. Answer their question. Send the thing you built because of their post.
 
 Two rules:

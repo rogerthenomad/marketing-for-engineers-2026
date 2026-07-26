@@ -1,26 +1,26 @@
 # 2. Getting Your First Users With No Budget
 
-> This is the chapter of the original list that aged best. The tactics changed; the logic
-> didn't. Getting from zero to your first hundred users is still a manual, unglamorous,
+> This is the part of marketing that has changed least. The tactics turn over constantly; the
+> logic doesn't. Getting from zero to your first hundred users is still a manual, unglamorous,
 > unscalable process, and every attempt to skip it fails the same way.
 
 ---
 
 ## 2.1 The pieces that still hold up
 
-Some writing survives eight years intact. These do:
+Most growth writing ages badly. This doesn't:
 
 - [Do Things that Don't Scale](http://paulgraham.com/ds.html) — Paul Graham. Still the best thing ever written on this problem, and if anything more relevant now that everyone has an AI-generated growth playbook. The core argument — that recruiting users one at a time by hand is not a compromise but the actual job — is unchanged.
 - **The unscalable phase is where the product gets good.** Doing support personally, onboarding people by hand, and watching them fail in real time is the highest-bandwidth product research that exists. Founders who automate this too early ship products that are subtly wrong for years.
 
-The 2018 list was right about all of this. What follows is what's changed underneath it.
+None of that is controversial. What follows is what has changed underneath it.
 
 ---
 
 ## 2.2 What "no budget" means differently now
 
-**Distribution is more crowded and more concentrated.** In 2018, publishing something decent gave
-you a reasonable chance of being found. Now the volume of published content is far higher, the
+**Distribution is more crowded and more concentrated.** Not long ago, publishing something decent
+gave you a reasonable chance of being found. Now the volume of published content is far higher, the
 share of searches ending in a click is far lower, and the surfaces that matter are fewer and more
 gate-kept.
 
@@ -33,7 +33,7 @@ The things that now stand out are exactly the things an engineer can do and a co
 - **A real opinion with your name on it.** Models produce the average of all opinions. The average is not interesting.
 - **Showing the actual work** — the failures, the numbers, the decisions you'd make differently.
 
-**The practical implication:** in 2018 the advice was "publish consistently." In 2026 it's
+**The practical implication:** the old advice was "publish consistently." The 2026 version is
 "publish something nobody else *could* have published, less often."
 
 ---
@@ -66,7 +66,7 @@ Real, but late in this list on purpose — a launch converts an audience, it doe
 See [chapter 7](07-launching.md).
 
 **6. Being where the models look.**
-New since 2018 and genuinely important: being mentioned in the sources that AI assistants read —
+Genuinely new, and genuinely important: being mentioned in the sources that AI assistants read —
 community threads, comparison content, documentation, other people's lists — increasingly
 determines whether you're the answer when someone asks a model what to use. See
 [chapter 4](04-seo-and-ai-search.md).
@@ -93,15 +93,15 @@ real revenue numbers is worth reading before you start.
 
 ## 2.5 What no longer works
 
-Cut these from any 2018-era plan:
+Cut these from any plan you inherited:
 
 - **Answering questions on Stack Overflow.** The channel has collapsed. See [chapter 8](08-communities-and-social.md#stack-overflow-say-the-quiet-part-loudly).
-- **Publishing on Medium for distribution.** It's paywalled and its distribution to non-subscribers is a shadow of what the original list assumed. Own your domain; syndicate elsewhere.
+- **Publishing on Medium for distribution.** It's paywalled and its distribution to non-subscribers is a shadow of what it once was. Own your domain; syndicate elsewhere.
 - **Quora.** Declined severely as both a traffic source and a community.
 - **Facebook groups and Pages.** Organic reach for brand pages has been negligible for years.
 - **Mass cold email.** Ineffective and, depending on jurisdiction, unlawful. See [chapter 15](15-privacy-and-compliance.md).
 - **Follow/unfollow, auto-DMs, engagement pods.** These worked briefly, then didn't, and now mostly signal that you're not worth following.
-- **"Growth hacking" content from the 2014–2018 era generally.** Most of it describes exploiting platform mechanics that were subsequently closed.
+- **"Growth hacking" content from the 2014–2018 era generally.** Most of it describes exploiting platform mechanics that have since been closed.
 
 ---
 

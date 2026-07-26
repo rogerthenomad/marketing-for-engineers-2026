@@ -1,10 +1,10 @@
-# What Changed for 2026
+# What Stopped Working
 
-A chapter-by-chapter account of what was added, rewritten, and removed relative to the
-[2018 original](https://github.com/goabstract/Marketing-for-Engineers). Written so you can see
-the reasoning, disagree with it, and correct it.
+Marketing for technical products changed more between 2023 and 2026 than in the decade before it.
+This document is the record of what changed, what died, and what replaced it — written so you can
+see the reasoning, disagree with it, and correct it.
 
-If you only read one section, make it [The graveyard](#the-graveyard).
+If you only read one section, make it [the graveyard](#the-graveyard).
 
 ---
 
@@ -13,7 +13,7 @@ If you only read one section, make it [The graveyard](#the-graveyard).
 **1. Search stopped being ten blue links.**
 Roughly two-thirds of searches now end without a click to the open web. Answers are assembled
 from *passages* via query fan-out, so a page can rank first and never be cited, or rank nowhere
-and be quoted. The 2018 list's entire model of SEO — rank, get the click, convert — describes a
+and be quoted. The entire inherited model of SEO — rank, get the click, convert — describes a
 minority case now. → [Chapter 4](chapters/04-seo-and-ai-search.md)
 
 **2. Your first reader is often not a person.**
@@ -47,10 +47,10 @@ astroturfed threads moved from "distasteful" to "regulated," with civil penaltie
 |---|---|
 | [5. Developer marketing and DevRel](chapters/05-developer-marketing-and-devrel.md) | The original had no coverage of marketing to engineers, despite being written for engineers. Its single biggest gap. |
 | [6. Open source and PLG](chapters/06-open-source-and-plg.md) | Licensing as a go-to-market decision, the 2018–2025 relicensing wars, and why GitHub stars became a compromised metric. |
-| [12. Analytics and attribution](chapters/12-analytics-and-attribution.md) | The original had no analytics chapter. It could get away with that; we can't. |
-| [15. Privacy and compliance](chapters/15-privacy-and-compliance.md) | GDPR got one line in 2018. Since then: ATT, Consent Mode v2, twenty-odd US state laws, the FTC reviews rule, and the EU AI Act. |
-| [16. The AI marketing stack](chapters/16-ai-marketing-stack.md) | The original's "Marketing Automation" chapter had two entries. |
-| [14. Psychology **and ethics**](chapters/14-psychology-and-ethics.md) | The psychology chapter survived; the ethics half is new, and they belong together. |
+| [12. Analytics and attribution](chapters/12-analytics-and-attribution.md) | Most marketing guides skip this. Attribution broke, and pretending otherwise helps nobody. |
+| [15. Privacy and compliance](chapters/15-privacy-and-compliance.md) | ATT, Consent Mode v2, twenty-odd US state laws, the FTC reviews rule, and the EU AI Act. Almost none of it is covered in general marketing guides. |
+| [16. The AI marketing stack](chapters/16-ai-marketing-stack.md) | Marketing automation stopped meaning "an email tool and a spreadsheet." |
+| [14. Psychology **and ethics**](chapters/14-psychology-and-ethics.md) | Persuasion is well covered elsewhere; where it becomes manipulation is not, and the two belong together. |
 
 ---
 
@@ -58,7 +58,7 @@ astroturfed threads moved from "distasteful" to "regulated," with civil penaltie
 
 **User Research + Market Research → [1. Positioning and audience](chapters/01-positioning-and-audience.md)**
 Demographic buyer personas replaced with positioning (Dunford) and jobs-to-be-done. Nearly every
-free research tool from the original is dead — see the graveyard. New failure mode named: asking
+free research tool from the last era is dead — see the graveyard. New failure mode named: asking
 an LLM to *be* your customer instead of talking to one.
 
 **Marketing without Budget → [2. Zero-budget growth](chapters/02-zero-budget-growth.md)**
@@ -73,8 +73,8 @@ actually supports.
 
 **Product Hunt → [7. Launching](chapters/07-launching.md)**
 Reframed from growth event to credibility event. Adds Hacker News properly, the underrated
-surfaces (package registries, `homebrew-core`, awesome-lists), and replaces the original's
-tolerance of "seeding discussions" with the FTC rule.
+surfaces (package registries, `homebrew-core`, awesome-lists), and replaces the old wink at
+"seeding discussions" with the FTC rule.
 
 **Social Media (Twitter/Facebook/Reddit/LinkedIn/Quora) → [8. Communities and social](chapters/08-communities-and-social.md)**
 The most heavily rewritten chapter. Reddit went from "place you get banned" to the most-cited
@@ -83,8 +83,8 @@ Bluesky, Mastodon, Discord, and a community-platform decision table. YouTube pro
 underrated channel for dev tools."
 
 **Lifecycle + Cold Email → [9. Email](chapters/09-email-and-lifecycle.md) and [10. Outbound](chapters/10-outbound-and-partnerships.md)**
-Resolves the original's contradiction — it disavowed cold email post-GDPR and then listed eleven
-cold-email tools. Deliverability promoted to the front, because Google/Yahoo (2024, tightened
+Resolves the contradiction in most guidance, which disavows cold email post-GDPR and then lists
+eleven cold-email tools. Deliverability promoted to the front, because Google/Yahoo (2024, tightened
 2025) and Microsoft (2025) made authentication mandatory and now *reject* non-compliant mail.
 
 **Facebook/Twitter Ads → [11. Paid acquisition](chapters/11-paid-acquisition.md)**
@@ -131,18 +131,18 @@ Removed, with reasons. This is the most useful part of the document.
 
 ### Platforms whose value collapsed
 
-- **Medium** — the original devoted a whole sub-chapter to it as a distribution engine. It's now paywalled with a fraction of the reach that advice assumed. Own your domain.
+- **Medium** — for years the default recommendation as a distribution engine. It's now paywalled with a fraction of the reach that advice assumed. Own your domain.
 - **Quora** — audience largely evaporated into AI chat.
 - **Stack Overflow** — question volume fell to levels last seen around 2008 after ChatGPT. The clearest death in the list, and unusually, one you can verify yourself through Stack Exchange's public Data Explorer.
 - **Facebook Pages** — organic reach for brand pages has been negligible for years.
 - **X for link distribution** — link posts are suppressed; reach is unreliable without an existing following.
 - **Product Hunt as an acquisition channel** — still valuable for credibility and press; no longer a traffic firehose, and the AI category is saturated.
 
-### Alive but no longer what the original described
+### Alive but no longer what they used to be
 
 - **Typeform** — cut its free tier drastically in 2026. No longer honest to recommend as a free tool. Tally and Formbricks are the replacements.
 - **Hootsuite** — removed its permanent free plan. Buffer, which kept one, is now the better recommendation.
-- **BuzzSumo** — moved upmarket after acquisition; the free tier is too thin for the original's use case.
+- **BuzzSumo** — moved upmarket after acquisition; the free tier is too thin to be the free research tool it used to be.
 - **Appcues** — now effectively sales-led pricing; no longer plausible for a bootstrapped engineer.
 - **Sumo.com** — acquired and rebuilt under a new name; the old free growth-app store is gone.
 - **Followerwonk** — changed hands twice, and structurally degraded by X's API pricing regardless of owner.
@@ -174,7 +174,7 @@ rather than repeated — this removed a lot of widely circulated statistics abou
 upvote thresholds, Hacker News front-page rates, Reddit ad performance, and SaaS pricing shifts.
 
 **The list tells you when something doesn't work.** Naming a dead tactic is more useful than
-quietly omitting it, because someone is otherwise going to find the 2018 advice and follow it.
+quietly omitting it, because someone is otherwise going to find the outdated advice and follow it.
 
 **Chapters say what to do if you only do five things.** Curated lists are easy to admire and hard
 to act on.
@@ -195,4 +195,5 @@ Corrections are the most valuable contribution you can make. See [CONTRIBUTING.m
 
 ---
 
-*Compiled July 2026. See [CREDITS.md](CREDITS.md) for the original's authors, who deserve them.*
+*The Visibility Handbook. Compiled July 2026. Corrections and additions welcome — see
+[CONTRIBUTING.md](CONTRIBUTING.md).*

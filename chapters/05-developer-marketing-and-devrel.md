@@ -1,9 +1,9 @@
 # 5. Developer Marketing and DevRel
 
-> **The 2018 list had no chapter like this.** That was its biggest gap then and it would be an
-> indefensible one now. If your buyer is an engineer, almost every tactic in the classic
-> marketing playbook either doesn't work on them or actively repels them — and since roughly
-> 2024 your first reader often isn't a human at all.
+> **Most marketing guides have no chapter like this**, which is why so much of their advice
+> bounces off technical audiences. If your buyer is an engineer, almost every tactic in the
+> classic playbook either doesn't work on them or actively repels them — and since roughly 2024
+> your first reader often isn't a human at all.
 
 ---
 

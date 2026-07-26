@@ -82,9 +82,9 @@ Sources that publish real numbers rather than repackaging each other's:
 
 ## Neighbouring lists
 
-- [awesome-developer-marketing](https://github.com/ronakganatra/awesome-developer-marketing) — the closest neighbour to this list.
+- [awesome-developer-marketing](https://github.com/ronakganatra/awesome-developer-marketing) — the closest neighbouring list on developer marketing specifically.
 - [open-business-models](https://github.com/protontypes/open-business-models) — how to make money from open source.
-- [Marketing for Engineers](https://github.com/goabstract/Marketing-for-Engineers) — the 2018 original that this edition exists because of. Read it for the parts that are still true, and see [CREDITS.md](../CREDITS.md).
+- [awesome-indie](https://github.com/mezod/awesome-indie) — resources for independent developers making money.
 
 ---
 

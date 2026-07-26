@@ -149,7 +149,7 @@ launching X" post frequently outperforms the launch itself.
 
 ## 7.6 Astroturfing is now a legal exposure, not a growth tactic
 
-The 2018-era wink about "seeding some discussion" needs replacing with something blunt.
+The old wink about "seeding some discussion" needs replacing with something blunt.
 
 The FTC's **Rule on the Use of Consumer Reviews and Testimonials** was finalised in August 2024
 and took effect in October 2024. It bans, among other things:

@@ -1,10 +1,9 @@
 # 11. Paid Acquisition
 
-> The original list had extensive chapters on Facebook and Twitter ads. Both platforms
-> changed beyond recognition, the targeting they described no longer exists, and the
-> measurement they assumed broke. This is a shorter chapter than that one, deliberately:
-> for most readers of this list, paid acquisition is the wrong tool, and the honest advice
-> is to say so before listing the tools.
+> Most marketing guides give paid acquisition a chapter proportional to how much money it
+> moves, not to how useful it is to the reader. This one is short on purpose: for most people
+> reading this, paid acquisition is the wrong tool right now, and the honest thing is to say so
+> before listing the platforms.
 
 ---
 

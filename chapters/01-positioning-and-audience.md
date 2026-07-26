@@ -1,10 +1,10 @@
 # 1. Positioning and Audience
 
-> The 2018 list opened with user research and market research, and it was right to. What's
-> changed is the method: buyer personas built from demographics have largely been replaced by
-> job-based and alternatives-based thinking, the free research tooling has almost entirely
-> turned over, and there's a new failure mode — asking a language model what your customers
-> want instead of asking your customers.
+> Everything downstream depends on this chapter. Buyer personas built from demographics have
+> been largely replaced by job-based and alternatives-based thinking, the free research tooling
+> has almost entirely turned over in the last few years, and there's a new failure mode worth
+> naming early: asking a language model what your customers want instead of asking your
+> customers.
 
 ---
 
@@ -50,9 +50,8 @@ else?"** That's your inbound trigger, and it belongs at the top of your homepage
 
 ## 1.3 Talking to actual users
 
-The 2018 list was right that you must do this, and the argument hasn't improved with age: **you
-must talk to real people.** What's changed is that it's now trivially easy to *simulate* the
-research instead — ask a model to generate a persona, produce a plausible interview transcript,
+There is no substitute for this: **you must talk to real people.** What's changed is that it's
+now trivially easy to *simulate* the research instead — ask a model to generate a persona, produce a plausible interview transcript,
 and skip the uncomfortable part. Don't. A model can tell you what people *generally* say about
 problems like yours. It cannot tell you what your specific prospect actually did last Tuesday
 when the thing broke.
@@ -80,7 +79,7 @@ templated blast. See [chapter 10](10-outbound-and-partnerships.md).
 
 ## 1.4 The research tooling actually turned over
 
-Nearly every free research tool the 2018 list recommended is gone. Amazon's Alexa web-analytics
+Nearly every free research tool that older marketing guides recommend is now gone. Amazon's Alexa web-analytics
 service shut down in 2022. Social Mention, Nuzzel, Klout and a long tail of free social-listening
 tools are dead. Followerwonk and Twitonomy lost most of their value when X's API pricing changed.
 Pipl became enterprise-only. Siftery is gone.

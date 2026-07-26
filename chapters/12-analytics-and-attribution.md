@@ -1,9 +1,9 @@
 # 12. Analytics and Attribution
 
-> The 2018 list had no analytics chapter. It could get away with that because attribution
-> mostly worked: cookies tracked people across sites, last-click was good enough, and the
-> dashboard roughly matched reality. None of those three things is true now, and the honest
-> response is not a better tool — it's a different relationship with certainty.
+> Marketing guides used to be able to skip this, because attribution mostly worked: cookies
+> tracked people across sites, last-click was good enough, and the dashboard roughly matched
+> reality. None of those three things is true now, and the honest response is not a better
+> tool — it's a different relationship with certainty.
 
 ---
 

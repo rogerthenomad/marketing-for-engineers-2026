@@ -39,7 +39,7 @@ The short history, because it's the most useful thing to know before you pick a 
 
 **The lesson is not "never relicense."** It is that the community's counter-move — fork, and put
 the fork under a neutral foundation — is now fast and reliable, and the forks retain substantial
-adoption even after the original relicenses back. Relicensing is a strategy with a known,
+adoption even after the original project relicenses back. Relicensing is a strategy with a known,
 non-refundable cost. Price it in advance.
 
 ### Fair source: the third way

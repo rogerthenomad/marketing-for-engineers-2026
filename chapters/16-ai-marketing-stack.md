@@ -1,7 +1,7 @@
 # 16. The AI Marketing Stack
 
-> The 2018 list's "Marketing Automation" chapter had two entries. This is its replacement.
-> The single most useful principle in it: **LLMs are excellent at transformation and terrible
+> Marketing automation used to mean an email tool and a spreadsheet. This chapter is what it
+> means now. The single most useful principle in it: **LLMs are excellent at transformation and terrible
 > at origination.** Every genuinely valuable AI marketing workflow reshapes material you
 > already have. Every slop workflow invents material you don't.
 
@@ -117,7 +117,7 @@ warehouse, and dbt. Buying a CDP early mostly buys you a second place for your e
 
 **Clearbit is not an independent product.** It was acquired by HubSpot in December 2023 and
 folded into Breeze Intelligence. Any 2026 list still saying "Clearbit — enrichment API" is
-copying a 2018 list.
+copying a list that stopped being updated years ago.
 
 **Is "GTM engineering" real?** Yes as a *practice* — treating pipeline generation as a
 data-and-automation engineering problem rather than a headcount problem. Inflated as a *title*:

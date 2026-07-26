@@ -9,10 +9,10 @@
 
 ---
 
-## 4.1 What actually changed since 2018
+## 4.1 What actually changed
 
-The 2018 edition of this list assumed search meant ten blue links and the job was to be one of
-them. Five things broke that assumption:
+For twenty years, search meant ten blue links and the job was to be one of them. Five things
+broke that assumption:
 
 **1. The click is no longer the default outcome of a search.**
 The most trustworthy public measurement is from Pew, not from an SEO vendor: across the real

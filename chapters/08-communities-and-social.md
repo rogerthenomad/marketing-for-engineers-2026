@@ -1,8 +1,8 @@
 # 8. Communities and Social
 
-> The 2018 list had chapters for Twitter, Facebook, Reddit, LinkedIn and Quora. Two of those
-> are no longer meaningful channels for a technical product, one has transformed beyond
-> recognition, and the single most important surface in 2026 — Reddit — was described there
+> A few years ago the answer here was Twitter, Facebook, Reddit, LinkedIn and Quora. Two of
+> those are no longer meaningful channels for a technical product, one has transformed beyond
+> recognition, and the single most important surface in 2026 — Reddit — used to be described
 > mainly as a place you get banned from.
 
 ---
@@ -15,8 +15,8 @@ platform X" is selling something.
 
 ### Stack Overflow: say the quiet part loudly
 
-This is the clearest death in the entire list. The 2018 advice — build reputation by answering
-questions in your problem space — described a channel that no longer exists.
+This is the clearest death in this entire handbook. The standard advice — build reputation by
+answering questions in your problem space — describes a channel that no longer exists.
 
 Monthly question volume peaked around 200,000 in the mid-2010s and fell off a cliff after
 ChatGPT's release, reaching levels last seen around 2008 and erasing roughly fifteen years of
@@ -45,9 +45,8 @@ strategy that involves reaching developers there.
 
 ## 8.2 Reddit is the biggest change since 2018
 
-In 2018 Reddit was a place engineers hung out and marketers got banned from. In 2026 it is
-arguably the most valuable single distribution surface on the open web — and the most
-rule-bound.
+Reddit used to be a place engineers hung out and marketers got banned from. It is now arguably
+the most valuable single distribution surface on the open web — and the most rule-bound.
 
 **Why it matters now:** Reddit is consistently among the most-cited domains across AI answer
 engines. When a developer asks a model "what should I use for X," a credible Reddit thread is

@@ -1,10 +1,9 @@
 # 14. Psychology and Ethics
 
-> The original list had a psychology chapter full of genuinely good material on persuasion.
-> It had no ethics chapter. In 2018 you could treat that as a matter of taste. In 2026 the
-> gap between "persuasion" and "manipulation" is the subject of active enforcement in
-> multiple jurisdictions, and the techniques that cross it are trivially easy to implement
-> by accident.
+> Most marketing writing covers persuasion and skips ethics, treating the second as a matter of
+> taste. It isn't any more. The gap between "persuasion" and "manipulation" is now the subject
+> of active enforcement in multiple jurisdictions, and the techniques that cross it are
+> trivially easy to implement by accident.
 >
 > This chapter merges the two on purpose. They're the same subject.
 
@@ -13,8 +12,7 @@
 ## 14.1 The principles, and the one rule that governs them
 
 Cialdini's seven principles of influence — reciprocity, commitment and consistency, social proof,
-authority, liking, scarcity, and unity — remain the best-validated framework in marketing, and
-the original list was right to include them.
+authority, liking, scarcity, and unity — remain the best-validated framework in marketing.
 
 The rule that makes them safe to use is simple: **the principle has to be genuinely present.**
 

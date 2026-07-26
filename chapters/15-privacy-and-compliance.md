@@ -1,8 +1,8 @@
 # 15. Privacy and Compliance
 
-> The 2018 list mentioned GDPR once, in a note advising against cold email. Since then the
-> ground under digital marketing has moved more than in any other area covered here. This
-> chapter is the minimum an engineer running their own marketing needs to know.
+> The ground under digital marketing has moved further in this area than in any other covered
+> here, and most of the guidance you'll find online predates the moves. This chapter is the
+> minimum an engineer running their own marketing needs to know.
 >
 > **This is not legal advice.** It's a map of what exists so you know when to get some.
 
