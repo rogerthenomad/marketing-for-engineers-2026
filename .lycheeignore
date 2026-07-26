@@ -1,0 +1,23 @@
+# Links that are alive but that lychee cannot verify from a CI runner.
+# Add a one-line reason for every entry — an unexplained ignore is how a list
+# quietly accumulates dead links behind a green check.
+
+# Aggressive bot protection / datacenter-IP blocking
+https://www\.linkedin\.com/.*
+https://x\.com/.*
+https://twitter\.com/.*
+https://www\.amazon\.com/.*
+https://www\.forbes\.com/.*
+
+# Cloudflare challenge pages for non-browser user agents
+https://ahrefs\.com/.*
+https://www\.semrush\.com/.*
+
+# Requires a logged-in session
+https://analytics\.google\.com/.*
+https://search\.google\.com/search-console.*
+https://www\.bing\.com/webmasters.*
+
+# Rate-limits CI runners hard
+https://news\.ycombinator\.com/.*
+https://www\.reddit\.com/.*

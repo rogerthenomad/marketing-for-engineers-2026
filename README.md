@@ -29,6 +29,61 @@ See [CREDITS.md](CREDITS.md).
 
 ---
 
+## Who this is for
+
+**You, if you can build the thing but not sell it.**
+
+- **The solo developer or indie hacker** who shipped something good six months ago and has eleven users, three of whom are your friends.
+- **The technical founder** who can explain the architecture in ten minutes and the value proposition in never.
+- **The open-source maintainer** with fifteen thousand stars, four thousand weekly downloads, and no idea how any of that becomes a living.
+- **The first marketing hire at a dev-tools company**, trying to work out why the playbook that worked at your last B2C job is bouncing off engineers.
+- **The DevRel person** who is being asked, for the first time, to prove the function pays for itself.
+- **The agency or consultant** whose clients are technical and who is tired of decks that assume the buyer can be reached on Facebook.
+
+**Who it is not for.** This assumes a technical or B2B buyer throughout. If you're marketing
+consumer goods, local services, or e-commerce, most of the mechanics here will be wrong for you —
+the chapters on developer marketing, open source and agent-readable documentation simply won't
+apply. Go find a list built for your channel.
+
+**What you don't need.** A budget, a marketing background, a team, or permission. Most of what
+follows is either free or something you can do yourself in an afternoon. Where something costs
+real money, the chapter says so, and usually says not to buy it yet.
+
+## Why this matters now
+
+Marketing used to be the thing you could postpone. Build something good, the reasoning went, and
+distribution would sort itself out. That was never quite true, and in 2026 it is actively false —
+for reasons that are specific, recent, and mostly invisible from inside an editor.
+
+**Being good is no longer sufficient to be found.** Roughly two-thirds of searches now end without
+a click to the open web. Answers are assembled from passages by systems that may never send you a
+visitor. You can rank first and be quoted nowhere.
+
+**Your first reader is increasingly not a person.** A coding agent reads your docs, resolves your
+package name, and picks your library before a human sees your homepage. If your documentation is
+gated, unrendered, or ambiguous about what your product is called, you lose that evaluation
+without ever knowing it happened.
+
+**The cost of being generic went to zero, and so did the value.** Anyone can now generate a
+competent blog post, a plausible landing page, and forty variations of an email. Which means none
+of those differentiate anything. The things that still work are the things a model can't produce:
+your data, your incident, your benchmark, your opinion, your name on it. That is *good* news for
+engineers — you have the raw material and most of your competitors don't.
+
+**Several tactics from the last era are now enforcement matters.** Fake reviews, undisclosed
+endorsements, bought upvotes and astroturfed threads moved from distasteful to regulated, with
+civil penalties attached. The 2018 advice on some of this will get you in genuine trouble.
+
+**And the old advice is still the top search result.** That's the real reason this exists. The
+list this one rebuilds was excellent, is nearly a decade old, and is still being found and
+followed by people who then waste months on channels that closed years ago. Half the value here is
+the [graveyard](WHATS-NEW-2026.md#the-graveyard).
+
+Marketing is a learnable skill with a literature, the same as distributed systems or type theory.
+This is the reading list, minus the parts that stopped being true.
+
+---
+
 ## Start with your actual problem
 
 | If you're… | Read |
@@ -111,21 +166,42 @@ their terms.
 
 ---
 
-## Who maintains this
+## About
 
-<img src="assets/logo-full.png" alt="Capture That Media" width="200">
+<img src="assets/logo-full.png" alt="Capture That Media" width="220">
 
-[**Capture That Media**](https://www.capturethatmedia.com) is an AI visibility marketing agency in
-San Antonio, Texas, founded in 2020 by [Roger Wong Won](https://github.com/rogerthenomad). We do
-branding, social, SEO/AEO/GEO, web development, e-commerce, and full-stack marketing — which is
-to say we spend our working lives on most of the problems in this list, and we maintain it because
-we needed it to exist.
+### 🌐 [www.capturethatmedia.com](https://www.capturethatmedia.com)
 
-[capturethatmedia.com](https://www.capturethatmedia.com) · San Antonio, TX
+**Capture That Media** is an AI visibility marketing agency in San Antonio, Texas, founded in 2020
+by [Roger Wong Won](https://github.com/rogerthenomad). Gold ADDY winner, and named Best of San
+Antonio in 2023.
 
-**Nothing in this list is a placement.** No vendor paid to be included, and we don't take
-affiliate links. If we ever list one of our own services here, it will say so plainly. See
-[CONTRIBUTING.md](CONTRIBUTING.md).
+*Visibility, everywhere your customers actually search.*
+
+We work on branding, social, SEO/AEO/GEO, web development, e-commerce and full-stack marketing —
+which is to say we spend our working days on most of the problems in this list. That's the honest
+reason it exists. We kept reaching for the 2018 original, kept finding its links dead, and
+eventually concluded that rewriting it was less work than explaining it away.
+
+The chapters on [AI search](chapters/04-seo-and-ai-search.md),
+[analytics](chapters/12-analytics-and-attribution.md) and
+[compliance](chapters/15-privacy-and-compliance.md) are the ones we get asked about most, and the
+ones where the 2018 advice is most likely to actively hurt you.
+
+**Where to find us**
+
+- Website — [www.capturethatmedia.com](https://www.capturethatmedia.com)
+- Location — San Antonio, Texas
+- Maintainer — [@rogerthenomad](https://github.com/rogerthenomad)
+
+**Disclosure.** Capture That Media sells marketing services that overlap the subject matter of
+this list. **Nothing here is a paid placement.** No vendor was compensated for inclusion, there are
+no affiliate links, and we don't recommend our own services in the chapters. Where our commercial
+interest touches a recommendation, the text says so. See [CONTRIBUTING.md](CONTRIBUTING.md) for the
+bar a link has to clear, and [CREDITS.md](CREDITS.md) for the full disclosure.
+
+**Found something wrong?** [Open an issue](../../issues). Corrections — especially about law,
+privacy rules and deliverability — get fixed fast, because people make real decisions on them.
 
 ---
 
