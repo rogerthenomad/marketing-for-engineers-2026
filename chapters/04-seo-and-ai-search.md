@@ -30,6 +30,12 @@ consequence is disorienting the first time you see it — **a page can rank #1 a
 and a page that ranks nowhere can be quoted** because one of its sections was the cleanest answer
 to a sub-question.
 
+At I/O in May 2026 Google merged AI Overviews and AI Mode into a single unified search experience
+rather than two distinct surfaces, and made the AI mode core to the product. Anything written
+before then that treats them as separate things to optimise for separately is describing a
+structure that no longer exists. The passage-level mechanic is what carried over, and it's the
+part that matters.
+
 **3. A second, smaller discovery channel appeared.**
 ChatGPT, Perplexity, Gemini, Claude and Copilot collectively refer roughly **1% of web referral
 traffic** as of early 2026 — growing fast, still small, and consistently reported to convert better
@@ -65,7 +71,8 @@ and consistently less breathless than the industry writing about it.
 - [Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) — the "Who / How / Why" self-assessment questions. The closest thing to a content spec Google publishes.
 - [SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) — deliberately short. Google's own position is that most sites need less technical SEO than vendors imply.
 - [Spam Policies for Google Web Search](https://developers.google.com/search/docs/essentials/spam-policies) — read *scaled content abuse* and *site reputation abuse* before any programmatic SEO project.
-- [AI Features and Your Website](https://developers.google.com/search/docs/appearance/ai-features) — how AI Overviews and AI Mode source content, and which controls you actually have (`nosnippet`, `max-snippet`, `data-nosnippet`, `Google-Extended`).
+- [AI Features and Your Website](https://developers.google.com/search/docs/appearance/ai-features) — how AI surfaces source content, and which controls you actually have (`nosnippet`, `max-snippet`, `data-nosnippet`, `Google-Extended`).
+- [Optimizing your website for generative AI features on Google Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) — added by Google in 2026 and now the most authoritative single page on this topic. It explicitly mythbusts `llms.txt`, content "chunking" and AI-specific rewriting. If you only read one link in this chapter, read this one — it settles most arguments before they start.
 - [Overview of Google crawlers and fetchers](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers) — the authoritative user-agent list.
 - [Search Quality Rater Guidelines (PDF)](https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf) — the E-E-A-T source document. Not a ranking factor; it's the spec human raters are graded against, which makes it the best public description of what Google is *trying* to reward.
 - [Google Search Status Dashboard](https://status.search.google.com/summary) — authoritative start/end dates for ranking and spam updates. Use this instead of trusting a blog's timeline.
@@ -131,8 +138,8 @@ results. Blocking the search-time fetcher does.
 
 Two things worth knowing:
 
-- **You cannot opt out of Google's AI Overviews while remaining in Google Search.** `Google-Extended` controls model training, not AI Overviews. The only lever for AI surfaces specifically is snippet control (`nosnippet`, `max-snippet`, `data-nosnippet`), and it costs you regular snippets too.
-- The common 2026 posture is **block training, allow search-time.** That's a business decision, not a technical default. Make it deliberately.
+- **This changed in mid-2026: you can now opt out of Google's AI surfaces and stay in Search.** For most of the AI-search era the honest answer was that you couldn't — `Google-Extended` governs model training, not AI Overviews, and your only lever was snippet control (`nosnippet`, `max-snippet`, `data-nosnippet`), which cost you ordinary snippets too. In June 2026 Google began rolling out a Search Console control that excludes a site from AI Overviews and AI Mode while leaving classic Search and Discover intact, and states it is not a ranking signal elsewhere. The change was forced by a legally binding UK CMA conduct requirement under Google's Strategic Market Status designation rather than offered voluntarily, and Google has a nine-month implementation window from June 2026 — so **check whether the control is available for your property before assuming it is.** If you find older guidance saying opt-out is impossible, that guidance predates this.
+- The common 2026 posture is **block training, allow search-time.** That's a business decision, not a technical default. Make it deliberately — and note that opting out of AI surfaces means opting out of a channel, not just a risk.
 
 **Checklist:**
 
@@ -204,7 +211,7 @@ conversions.
 
 **The free stack, which genuinely covers ~80% of what a small team needs:**
 
-- [Google Search Console](https://search.google.com/search-console/about) — free, non-negotiable, and the only source of your own Google impression and position data. In 2026 Google added generative-AI performance reporting that breaks out AI Overviews and AI Mode impressions. **The catch: impressions only** — no clicks, no CTR, no query data. You can finally see AI-surface visibility; you still can't price it.
+- [Google Search Console](https://search.google.com/search-console/about) — free, non-negotiable, and the only source of your own Google impression and position data. In June 2026 Google began adding generative-AI performance reporting that breaks out AI-surface impressions from ordinary Search. **Two catches:** it is **impressions only** — no clicks, no CTR, no query data, with click data promised but undated — and it is a **staged rollout** that started with a subset of site owners rather than launching globally. Check whether your property has it before building a process around it. You can finally see AI-surface visibility; you still can't price it.
 - [Bing Webmaster Tools](https://www.bing.com/webmasters/) — free, and matters more than it used to because Copilot leans on Bing's index.
 - [Ahrefs Webmaster Tools](https://ahrefs.com/webmaster-tools) — genuinely free, no card, for domains you verify and own. Site audit plus your own backlinks and ranking keywords. No competitor data — that's the paid upsell.
 - [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/) — free up to 500 URLs with no JS rendering. For a docs site under 500 pages that is often genuinely enough.

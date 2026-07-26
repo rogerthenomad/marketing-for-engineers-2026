@@ -16,7 +16,12 @@ downstream. It is also the thing most teams discover only after a campaign lands
 **The bulk-sender floor.** Google and Yahoo introduced requirements in February 2024 and
 tightened enforcement from November 2025, moving from junk-foldering to outright rejections.
 Microsoft matched them in May 2025 for Outlook.com, Hotmail.com and Live.com — non-compliant
-mail gets rejected with `550 5.7.15 Access denied`, not delivered to spam.
+mail gets rejected with `550 5.7.15 Access denied`, not delivered to spam. **Apple iCloud has since
+joined**, so the practical shorthand is now Microsoft, Apple, Google, Yahoo rather than the older
+trio. Apple additionally expects ARC on forwarded mail and valid reverse DNS.
+
+One detail that catches people out: **bulk-sender status is generally permanent once you cross the
+threshold.** Dropping back under 5,000 a day does not exempt you again.
 
 At **5,000+ messages per day to personal accounts** you must have:
 
@@ -45,7 +50,7 @@ At **5,000+ messages per day to personal accounts** you must have:
 
 - [Resend](https://resend.com) — the developer-experience winner. Clean API, React Email templating, good docs, generous free tier. Worth knowing it's a well-designed layer over an underlying MTA rather than an MTA itself, which matters when you're reasoning about reputation isolation.
 - [Postmark](https://postmarkapp.com) — the deliverability purist. Separate message streams for transactional and broadcast, aggressive reputation defence, and correspondingly opinionated about what you're allowed to send. **If password resets landing in spam would be an incident, use this.**
-- [Amazon SES](https://aws.amazon.com/ses/) — cheapest raw sending by a wide margin and the most work. No templating, no analytics worth the name; you build suppression and reputation tooling yourself.
+- [Amazon SES](https://aws.amazon.com/ses/) — cheapest raw sending by a wide margin and the most work. No templating, no analytics worth the name; you build suppression and reputation tooling yourself. **Note the July 2026 repricing**: SES moved to tiered plans and the free tier was withdrawn for new customers, which changes the old "SES is basically free" calculus.
 - [SendGrid](https://sendgrid.com) (Twilio) — enormous scale and a mature API, but the shared-IP reputation pool is a genuine liability on lower tiers. Fine at volume with dedicated IPs.
 
 ### Newsletters and creator lists

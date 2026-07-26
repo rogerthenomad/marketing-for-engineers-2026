@@ -64,8 +64,10 @@ stars (see [chapter 6](06-open-source-and-plg.md)).
 
 **Status note worth knowing:** the *company* Orbit was acquired by Postman and shut down in 2024,
 and the model repo is no longer actively developed. The framework is still the clearest way to
-think about community measurement; just don't go looking for the product. [Common
-Room](https://www.commonroom.io/) is the main live successor in the community-CRM category.
+think about community measurement; just don't go looking for the product. [Common Room](https://www.commonroom.io/) was the obvious successor, but it pivoted toward
+go-to-market intelligence and was acquired by Zoom in July 2026 — and its entry pricing is well
+beyond a small team. There is currently **no cheap, obvious community-CRM for a small dev tool**,
+which is worth knowing before you go shopping for one.
 
 ---
 
@@ -100,7 +102,7 @@ step. That work outperforms almost any campaign you could run with the same hour
 - [Docusaurus](https://docusaurus.io/) — Meta's open-source React docs framework. Free, endlessly customisable, still the default for OSS projects.
 - [Starlight](https://starlight.astro.build/) — Astro's docs theme. Very fast, low-JS, increasingly the choice for OSS docs that care about Core Web Vitals.
 - [Mintlify](https://www.mintlify.com/) — AI-first hosted docs: MDX, OpenAPI ingestion, an assistant trained on your docs, `llms.txt` output. Common default for new commercial dev-tool docs.
-- [Fern](https://buildwithfern.com/) — spec-first: one OpenAPI file generates docs *and* type-safe SDKs. Best fit if you're genuinely API-first.
+- [Fern](https://buildwithfern.com/) — spec-first: one OpenAPI file generates docs *and* type-safe SDKs. Best fit if you're genuinely API-first. Acquired by Postman in January 2026, which broadened its input formats and is worth factoring into a long-term bet.
 - [ReadMe](https://readme.com/) — interactive reference with a try-it explorer and per-user usage analytics. Strongest on onboarding telemetry.
 - [Redocly](https://redocly.com/) and [GitBook](https://www.gitbook.com/) — the other two serious contenders.
 - [OpenAPI Initiative](https://www.openapis.org/) — your spec is now a marketing asset, not just an engineering one. It generates the reference docs, the SDKs, the Postman collection, the `llms.txt`, and increasingly the MCP server.
@@ -131,6 +133,7 @@ makes several long-standing dev-marketing habits actively harmful.
 - [Context7](https://github.com/upstash/context7) — MIT-licensed MCP server that feeds up-to-date, version-specific library docs into coding agents, specifically to stop hallucinated APIs. Getting your library indexed here is a real distribution act. (Upstash)
 - [Model Context Protocol](https://modelcontextprotocol.io/) — the spec. An official MCP server puts your product inside the agent's tool list, which is roughly the 2026 equivalent of being in the IDE's plugin marketplace. Stripe, Cloudflare, GitHub, Supabase, Sentry, Vercel, Figma and Notion all ship one.
 - [DeepWiki](https://deepwiki.com/) — auto-generated agent-readable wikis for public repos. Your project gets explained to agents whether you participate or not, which is a good reason to make the source explain itself well.
+- **Agent Skills (`SKILL.md`)** — the newer, lighter sibling of an MCP server: a folder of instructions and scripts that teaches an agent to use your product, with no server to run. Stewarded under the same Linux Foundation umbrella as `AGENTS.md` and supported across a growing set of tools. For most small dev-tool teams this is now a **cheaper first step than shipping an MCP server**, and it is the surface moving fastest.
 
 ### The honest counterweight
 
@@ -157,7 +160,7 @@ benefit as upside.
 - [Github20K](https://www.github20k.com/) — Nevo David on growing an open-source project's audience. Directly on-topic for [chapter 6](06-open-source-and-plg.md).
 - [DevFirst](https://devfirst.substack.com/) — Francesca Krihely (ex-MongoDB, Snyk) on developer-first go-to-market.
 - [daily.dev](https://daily.dev/) — where a meaningful share of developer content distribution actually happens now.
-- [DevRel Weekly](https://devrelweekly.com/) — the long-running curated DevRel newsletter.
+- [DevRel Weekly](https://devrelweekly.com/) — the long-running curated DevRel newsletter. **Now wound down** after roughly six years; the archive is still worth mining, but don't expect new issues.
 
 **Podcasts**
 

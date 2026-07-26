@@ -55,7 +55,7 @@ plays carry negative brand equity in a way they didn't in 2023.
 ## 16.2 Agentic marketing
 
 - [Model Context Protocol](https://modelcontextprotocol.io) — the open protocol connecting LLM clients to tools and data. This is the thing that genuinely changed marketing tooling: your CRM, analytics and CMS become callable by an agent without writing an integration.
-- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) — the official reference server collection. Start here and at the MCP registry rather than at a "best MCP servers for marketers" listicle — several of those assert official servers that are actually community forks.
+- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) — the official reference server collection. Start here rather than at a "best MCP servers for marketers" listicle — several of those assert official servers that are actually community forks. MCP governance moved to the Linux Foundation's Agentic AI Foundation, and the official registry is still in preview, so a listing there is not yet meaningful distribution.
 
 **What agents are genuinely good at right now** is the read-heavy, low-blast-radius half:
 research and reporting. "Pull last month's organic performance, cross-reference it against the
@@ -96,8 +96,8 @@ project's licence file:
 **Commercial options:** [Zapier](https://zapier.com) has the widest catalogue, the highest
 per-task cost and the lowest engineering effort — correct for the long tail of one-off glue, and
 it stops making sense the moment a workflow runs at volume. [Make](https://www.make.com) offers
-real branching, iterators and error handlers at meaningfully lower cost per operation, with a
-steeper learning curve.
+real branching, iterators and error handlers at meaningfully lower cost, with a steeper learning
+curve — note it now bills in credits rather than per operation, so old cost comparisons mislead.
 
 **Reality check on self-hosting to save money:** an n8n or Listmonk instance is a production
 service with a database, a queue, secrets, an upgrade path and an on-call rotation. It's cheaper
@@ -110,7 +110,7 @@ warehouse, and dbt. Buying a CDP early mostly buys you a second place for your e
 
 ## 16.4 CRM and GTM data
 
-- [HubSpot free CRM](https://www.hubspot.com/products/crm) — the free tier is genuinely usable, and the on-ramp is the point: pricing escalates steeply and migration out is real work. Now also the most agent-accessible CRM, with official MCP servers for both CRM access and development.
+- [HubSpot free CRM](https://www.hubspot.com/products/crm) — the free tier is usable but capped (notably at 1,000 contacts), and the on-ramp is the point: pricing escalates steeply and migration out is real work. Now also the most agent-accessible CRM, with official MCP servers for both CRM access and development.
 - [Attio](https://attio.com) — CRM as a relational database: custom objects, real API, webhooks, workflow builder. The right pick for a technical team that would otherwise build a CRM in Postgres.
 - [Folk](https://www.folk.app) — deliberately lightweight and spreadsheet-shaped. Right for 0–10 people wanting same-day setup; wrong if you plan to automate against it.
 - [Clay](https://clay.com) — the data-orchestration layer that defined the category: many enrichment providers behind one waterfall, plus LLM research agents for fields no provider has. Powerful, and extremely easy to spend money on — credit consumption is what people underestimate.
@@ -135,7 +135,7 @@ extraction of claims, quotes and hooks → derivative formats → human edit →
 Note the direction: **one thing becomes many.** Every failing content operation runs the
 opposite way, starting from a calendar of topics and manufacturing filler to fit it.
 
-- [Whisper](https://github.com/openai/whisper) — the foundation of any serious repurposing pipeline. Transcripts are the highest-leverage artefact in content ops: searchable, diffable, and the input to everything downstream.
+- [Whisper](https://github.com/openai/whisper) — MIT-licensed, self-hostable, and still the pragmatic default for a repurposing pipeline because of its licence and ecosystem rather than raw accuracy: several newer open models now beat it on benchmarks. Transcripts are the highest-leverage artefact in content ops — searchable, diffable, and the input to everything downstream.
 - [Descript](https://www.descript.com) — edit video and audio by editing the transcript. A genuine step change for people who think in text rather than timelines.
 
 **Editorial QA with AI is the one AI content workflow with no downside.** Run every draft
@@ -151,7 +151,7 @@ Wire it into CI on your content repo.
 - [Typefully](https://typefully.com) — writing-first. Best when the bottleneck is the writing rather than the workflow.
 - [Postiz](https://github.com/gitroomhq/postiz-app) — the genuinely open-source, self-hostable option.
 
-**X's API has been repriced three times in three years** — the 2023 removal of free access
+**X's API has been repriced four times in three years** — the 2023 removal of free access
 killed an entire generation of Twitter tools, and the model changed again in 2026 toward
 pay-per-use for new developers. Check [the official pricing page](https://docs.x.com/x-api/getting-started/pricing)
 rather than trusting any number printed in a list like this one.
