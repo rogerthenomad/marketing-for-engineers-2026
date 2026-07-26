@@ -23,6 +23,9 @@ can act on it today.
 **Free, CC BY 4.0, and built to be forked.** Translate it, specialise it for your stack or your
 industry, strip what doesn't apply. See [the licence](LICENSE).
 
+Written and maintained by **[Roger Wong Won](https://github.com/rogerthenomad)**, founder of
+[Capture That Media](https://www.capturethatmedia.com) in San Antonio, Texas.
+
 > **New here?** Start with [What Stopped Working](WHAT-STOPPED-WORKING.md), especially
 > [the graveyard](WHAT-STOPPED-WORKING.md#the-graveyard) — the list of tools and tactics that are dead,
 > and what replaced them. If you've been following advice you found on page one of Google,
@@ -214,7 +217,7 @@ their terms.
 ### 🌐 [www.capturethatmedia.com](https://www.capturethatmedia.com)
 
 **Capture That Media** is an AI visibility marketing agency in San Antonio, Texas, founded in 2020
-by [Roger Wong Won](https://github.com/rogerthenomad). Gold ADDY winner, and named Best of San
+by **Roger Wong Won**. Gold ADDY winner, and named Best of San
 Antonio in 2023.
 
 *Visibility, everywhere your customers actually search.*

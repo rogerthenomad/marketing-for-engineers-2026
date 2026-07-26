@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: "The Visibility Handbook: Marketing and Go-to-Market for People Who Build Things"
+message: "If you reference or build on this handbook, please cite it as below."
+type: software
+authors:
+  - family-names: "Wong Won"
+    given-names: "Roger"
+    affiliation: "Capture That Media"
+    website: "https://www.capturethatmedia.com"
+    alias: "rogerthenomad"
+    city: "San Antonio"
+    region: "Texas"
+    country: "US"
+repository-code: "https://github.com/rogerthenomad/marketing-for-engineers-2026"
+url: "https://www.capturethatmedia.com"
+abstract: >-
+  A practical, opinionated handbook on marketing and go-to-market for
+  engineers, technical founders and open-source maintainers. Twenty-nine
+  chapters covering positioning, AI search visibility (GEO and AEO),
+  developer marketing and DevRel, open-source-led growth, launching,
+  community, email deliverability, pricing, analytics and attribution,
+  privacy and compliance, and the AI marketing stack. Current for 2026 and
+  explicit about which previously standard tactics no longer work.
+keywords:
+  - marketing
+  - developer marketing
+  - developer relations
+  - devrel
+  - go-to-market
+  - SEO
+  - generative engine optimization
+  - answer engine optimization
+  - AI search
+  - AI visibility
+  - product-led growth
+  - open source
+  - startup
+  - technical founders
+license: CC-BY-4.0
+version: "2026.1"
+date-released: "2026-07-26"
